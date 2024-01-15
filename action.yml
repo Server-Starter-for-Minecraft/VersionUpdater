@@ -8,11 +8,11 @@ inputs:
   update-json:
     description: 'if update package.json version filed with new version'
     required: false
-    default: false
-  release-type:
+    default: true
+  update-type:
     description: 'major | minor | patch'
     required: false
-    default: false
+    default: 'patch'
 outputs:
   current-version:
     description: 'Current Project Version'

@@ -7,7 +7,7 @@ try {
     
     let [major, minor, patch] = content.version.split('.').map(x => parseInt(x));
 
-    let release_type = core.getInput('release-type',{trimWhitespace:true})
+    let release_type = core.getInput('update-type',{trimWhitespace:true})
 
     core.setOutput("current-version",`${major}.${minor}.${patch}`)
 
