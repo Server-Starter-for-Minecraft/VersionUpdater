@@ -1,0 +1,8 @@
+{
+    "name": "version_updater",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://txkodo@github.com/Server-Starter-for-Minecraft/VersionUpdater.git",
+    "author": "txkodo <kodo.hsmkai@gmail.com>",
+    "license": "MIT"
+}
